@@ -1,27 +1,46 @@
-  {
-    "id": 1,
-    "name": "Meowsy",
-    "species" : "cat",
-    "foods": {
-      "likes": ["tuna", "catnip"],
-      "dislikes": ["ham", "zucchini"]
+{
+  "pets": [
+    {
+      "id": 1,
+      "name": "Meowsy",
+      "species": "cat",
+      "foods": {
+        "likes": [
+          "tuna",
+          "catnip"
+        ],
+        "dislikes": [
+          "ham",
+          "zucchini"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Barky",
+      "species": "dog",
+      "foods": {
+        "likes": [
+          "bones",
+          "carrots"
+        ],
+        "dislikes": [
+          "tuna"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Purrpaws",
+      "species": "cat",
+      "foods": {
+        "likes": [
+          "mice"
+        ],
+        "dislikes": [
+          "cookies"
+        ]
+      }
     }
-  },
-  {
-    "id": 2,
-    "name": "Barky",
-    "species" : "dog",
-    "foods": {
-      "likes": ["bones", "carrots"],
-      "dislikes": ["tuna"]
-    }
-  },
-  {
-    "id": 3,
-    "name": "Purrpaws",
-    "species" : "cat",
-    "foods": {
-      "likes": ["mice"],
-      "dislikes": ["cookies"]
-    }
-  }
+  ]
+}
